@@ -14,12 +14,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #5FAD56;
+    background-color: #08053A;
 }
 
 .container {
-    background-color: white;
-    border: 4px solid white;
+    background-color: #fafafa;
+    border: 4px solid #fafafa;
     padding: 25px;
     border-radius: 20px 0;
     width: 500px;
@@ -52,7 +52,7 @@ header img {
     font-size: 2em;
     color: lightgray;
     cursor: pointer;
-    transition: color .3s ease;
+    transition: color .2s;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.427);
 }
 
@@ -90,19 +90,20 @@ footer a p {
 
 #btn {
     border: none;
-    background-color: transparent;
-    border: 3px solid #F2C14E;
-    color: #F2C14E;
+    border: 3px solid #ffcb52;
+    background-color: #ffcb52;
+    color: black;
     font-weight: 500;
     width: 90%;
     padding: 10px;
     border-radius: 15px;
     font-size: 1.3em;
     cursor: pointer;
-    transition: .3s;
+    transition: .2s;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.482);
 }
 
 #btn:hover {
-    background-color: #F2C14E;
-    color: black;
+    background-color: #dfb249;
+    border: 3px solid #dfb249;
 }
